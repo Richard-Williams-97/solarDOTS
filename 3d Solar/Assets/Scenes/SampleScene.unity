@@ -214,7 +214,6 @@ GameObject:
   m_Component:
   - component: {fileID: 158125477}
   - component: {fileID: 158125476}
-  - component: {fileID: 158125478}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -231,22 +230,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 158125475}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7670361088ebbc54498b0618ca6e7181, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a19746c7e3ed854383c5b5e188f2eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitialGridSize:
-    x: 50
-    y: 100
-  FloorTile: {fileID: 0}
-  CellSize:
-    x: 15
-    y: 15
-  CellOffset:
-    x: 0
-    y: 0
-  CellPadding:
-    x: 0
-    y: 0
+  ValueA: 0
+  ValueB: 0
+  groundTiles: []
+  fiveByFives: []
+  threeByThrees: []
 --- !u!4 &158125477
 Transform:
   m_ObjectHideFlags: 0
@@ -261,19 +252,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &158125478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 158125475}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea7d7495833204790ba1d3a8755397f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ConversionMode: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,6 +519,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1176182417}
+  - component: {fileID: 1176182418}
   m_Layer: 0
   m_Name: Player Manager
   m_TagString: Untagged
@@ -565,6 +544,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1176182418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176182416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547b44724fd31724ba64c7c1e704a3bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ValueA: 0
+  ValueB: 0
+  Characters: []
 --- !u!4 &1383381793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8783823026082482286, guid: 90c39f2dc76c2704db436dae6c06b00a, type: 3}

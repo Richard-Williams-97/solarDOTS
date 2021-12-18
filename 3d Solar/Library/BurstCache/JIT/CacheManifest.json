@@ -711,6 +711,20 @@
       ]
     },
     {
+      "FullName": "System.Void Unity.Entities.IJobParallelForExtensionsBurstSchedulable/ParallelForJobStructBurstSchedulable`1<Unity.Entities.GatherChunksJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
+      "ModuleOptionsHash": 11834165633931345063,
+      "ModuleHash": "f86fc961f9c8274f45cff38ce110f092",
+      "LinkName": "1EEC5F5DC3D06494",
+      "AssemblyDependencyIndices": [
+        3,
+        1,
+        2,
+        4,
+        6,
+        5
+      ]
+    },
+    {
       "FullName": "System.Void Unity.Entities.IJobParallelForExtensionsBurstSchedulable/ParallelForJobStructBurstSchedulable`1<Unity.Entities.EntityManager/RemapAllArchetypesJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
       "ModuleOptionsHash": 11834165633931345063,
       "ModuleHash": "7b102562650a418b17319d3266dc1277",
@@ -726,20 +740,6 @@
         0,
         8,
         9
-      ]
-    },
-    {
-      "FullName": "System.Void Unity.Entities.IJobParallelForExtensionsBurstSchedulable/ParallelForJobStructBurstSchedulable`1<Unity.Entities.GatherChunksJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)",
-      "ModuleOptionsHash": 11834165633931345063,
-      "ModuleHash": "f86fc961f9c8274f45cff38ce110f092",
-      "LinkName": "1EEC5F5DC3D06494",
-      "AssemblyDependencyIndices": [
-        3,
-        1,
-        2,
-        4,
-        6,
-        5
       ]
     },
     {

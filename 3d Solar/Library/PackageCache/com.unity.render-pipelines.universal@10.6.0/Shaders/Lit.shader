@@ -2,11 +2,6 @@ Shader "Universal Render Pipeline/Lit"
 {
     Properties
     {
-        Stencil{
-            Ref 1
-            Comp Always
-            Pass Replace
-        }
         // Specular vs Metallic workflow
         [HideInInspector] _WorkflowMode("WorkflowMode", Float) = 1.0
 
